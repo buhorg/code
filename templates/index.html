@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Великие русские писатели</title>
+<link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+     {% for writer in writers %}
+         <h1>{{writer.name}}</h1>
+         <img src="/static/photo/{{writer.picture}}">
+         <div class = "years" >
+             {{writer.years}}
+         </div>
+         <div class = "about">
+             {{writer.info}}
+         </div>
+         <div class = "about">
+             <span>В браке с:</span> {{writer.married}}
+         </div>
+         <div class = "about">
+             <span>Цитата:</span> {{writer.quote}}
+         </div>
+         <div class = "about">
+             <span>Самое читаемое произведение:</span> <a href={{writer.web}}>{{writer.book}}</a>
+         </div>
+         <hr>
+    {% endfor %}
+</body>
+</html>

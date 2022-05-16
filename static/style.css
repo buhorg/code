@@ -1,0 +1,39 @@
+body{
+    background: #f3f3f3;
+}
+h1{
+    font-size: 20px;
+    text-align:center;
+}
+img {
+    width: 15%;
+    margin-left: 42%;
+    border-radius:8px;
+    box-shadow: 0.0em 0.3em 0.9em 0em rgba(0,0,0,0.25);
+    padding:4px;
+    }
+.years {
+    text-align: center;
+    margin-top: 1%;
+    color: green;
+    text-decoration: underline;
+}
+.about{
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 5%;
+}
+span{
+    font-weight: bold;
+}
+hr{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+a {
+    text-decoration:none;
+    color:#3d75b6;}
+
+a:hover {
+    color:#ce4a32;}
